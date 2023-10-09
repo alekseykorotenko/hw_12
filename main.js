@@ -3,8 +3,8 @@ let name = prompt('Введи своє імʼя');
 let age = prompt('Введи свій вік');
 let bornDate = prompt('Введи дату народження');
 
-alert(
-  `Привіт, ${name}, Ви народились ${bornDate} це означає, що вам ${age} рік`
+document.write(
+  `Привіт, ${name}, Ви народились ${bornDate} це означає, що вам ${age} рік <br>`
 );
 
 //2 task
@@ -15,4 +15,4 @@ let numResult = '';
 for (let i = 0; i < num.length; i++) {
   numResult += num[i] + ' ';
 }
-console.log(numResult);
+document.write(numResult);
